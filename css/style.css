@@ -20,18 +20,19 @@ body {
 }
 
 #content {
-  padding: 20px;
-  background: rgba(255,255,255,.85);
+  padding: 80px;
+  background: rgba(227, 16, 16, 0.85);
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: #020202;
 }
 
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
+  color: #5e0021;
 }
 
 h2 {
@@ -70,7 +71,7 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 784px) {
+@media only screen and (max-width: 900px) {
   body {
     font-size: 120%;
   }
